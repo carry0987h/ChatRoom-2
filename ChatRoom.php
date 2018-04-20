@@ -10,7 +10,7 @@
 <body>
   <div class="chatBox">
     <?php
-    $handle = fopen("/tmp/userLog.txt", 'r')
+    $handle = fopen("/tmp/userLog.txt", 'r');
     while(($line = fgets($handle)) !== false){
     echo $line;
     }
