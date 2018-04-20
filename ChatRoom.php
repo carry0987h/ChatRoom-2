@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta http-equiv="refresh" content="10
   <link rel="stylesheet" type="text/css" href="ChatRoom.css">
   <title>ChatRoom</title>
   <script src="jquery-3.3.1.js"></script>
@@ -40,10 +41,9 @@
     ?>
     </div>
   </div>
-  <div action="/ChatRoom.php" class="userBox">
+  <div action="/ChatRoom.php" class="userBox" onKeyPress="return checkSubmit(event)">
     <form method="post">
     <textarea name="posting"></textarea>
-    <input type="submit" value="Submit"/>
   </form>
   </div>
 
