@@ -13,9 +13,8 @@
   </div>
   <pre>
   <?php
-  echo print_r($_POST[posting]);
   $handle = fopen("/tmp/userLog.txt", 'w+');
-  fwrite($handle, $_POST[posting]. "/n");
+  fwrite($handle, $_POST[posting]. "\n");
   fclose($handle);
   ?>
   </pre>
