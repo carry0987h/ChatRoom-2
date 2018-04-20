@@ -18,9 +18,13 @@
   }
   ?>
   <?php
-  $handle = fopen("/tmp/userLog.txt", 'a+');
-  fwrite($handle, "User:". $cookie_value. $_POST[posting]. "\n");
-  fclose($handle);
+    if (isset($_POST)){
+      //creates variable to open userlog.
+      $handle = fopen("/tmp/userLog.txt", 'a+');
+      //writes out
+      fwrite($handle, "User:". $cookie_value. $_POST[posting]. "\n");
+      fclose($handle);
+  }
   ?>
   <div class="chatBox">
     <div class="textBox">
