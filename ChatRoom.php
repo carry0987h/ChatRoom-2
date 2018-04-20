@@ -32,7 +32,6 @@
       fwrite($handle, $cookie_value. ": ". $_POST[posting]. "\n");
       //closes userLog.txt
       fclose($handle);
-  }
   ?>
   <div class="chatBox" id="ChatView">
     <iframe src="/ChatView.php"></frame>
