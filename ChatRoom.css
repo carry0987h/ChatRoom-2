@@ -8,6 +8,9 @@ body{
 iframe {
  border: 0;
 }
+.textBox{
+  text-align: left;
+}
 .userBox{
   text-align: left;
 }
