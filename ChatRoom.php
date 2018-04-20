@@ -11,7 +11,7 @@
   <?php
   $cookie_name = "user";
   if(!isset($_COOKIE[$cookie_name])) {
-    $url = "https://uinames.com/api/"
+    $url = "https://uinames.com/api/";
     $obj = json_decode(file_get_contents($url), true);
     $cookie_value = $obj['name'];
     setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
