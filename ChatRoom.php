@@ -17,7 +17,7 @@
     <?php
     $handle = fopen("/tmp/userLog.txt", 'r');
     while(($line = fgets($handle)) !== false){
-    echo $line;
+    echo $line. "\n";
     }
     fclose($handle);
     ?>
