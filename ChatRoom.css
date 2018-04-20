@@ -1,0 +1,31 @@
+body{
+    background-color: #878787;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
+}
+iframe {
+ border: 0;
+}
+.userBox{
+  text-align: left;
+}
+.chatBox {
+    border-radius: 15px 50px;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    width: 50%;
+    border: 15px solid #50514F;
+    padding: 10px;
+    background-color: #9C9990;
+}
+.siteTitle{
+    text-align: left;
+    margin: auto;
+    height: 40px;
+    width: 100%;
+    padding: 0px;
+    background-color: #FBFBFF;
+}
