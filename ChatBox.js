@@ -1,4 +1,4 @@
-//$('ChatView').load(document.URL +  'ChatView.php');
+$('ChatView').load(document.URL +  'ChatView.php');
 
 function checkSubmit(e){
   if(e && e.keyCode == 13){
