@@ -14,6 +14,7 @@
   fclose($handle);
   ?>
   <div class="chatBox">
+    <div class="textBox">
     <?php
     $handle = fopen("/tmp/userLog.txt", 'r');
     while(($line = fgets($handle)) !== false){
@@ -21,6 +22,7 @@
     }
     fclose($handle);
     ?>
+    </div>
   </div>
   <div action="/ChatRoom.php" class="userBox">
     <form method="post">
