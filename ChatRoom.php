@@ -15,6 +15,9 @@
     $obj = json_decode(file_get_contents($url), true);
     $cookie_value = $obj['name'];
     setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+  }else{
+    $cookie_value = $_COOKIE[$cookie_name];
+
   }
   ?>
   <?php
