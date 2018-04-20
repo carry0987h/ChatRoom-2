@@ -9,11 +9,17 @@
 
 <body>
   <div class="chatBox">
-    <iframe src="userLog.txt" height="600" width="800"></iframe>
+    <?php
+    $handle = fopen("/tmp/userLog.txt", 'r')
+    while(($line = fgets($handle)) !== false){
+    echo $line;
+    }
+    fclose($handle);
+    ?>
   </div>
   <pre>
   <?php
-  $handle = fopen("/tmp/userLog.txt", 'w+');
+  $handle = fopen("/tmp/userLog.txt", 'a+');
   fwrite($handle, $_POST[posting]. "\n");
   fclose($handle);
   ?>
