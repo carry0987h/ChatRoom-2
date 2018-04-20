@@ -25,7 +25,7 @@
       //creates variable to open userlog.
       $handle = fopen("/tmp/userLog.txt", 'a+');
       //writes text iputed in form to userlog.txt
-      fwrite($handle, "User:". $cookie_value. $_POST[posting]. "\n");
+      fwrite($handle, $cookie_value. ": ". $_POST[posting]. "\n");
       fclose($handle);
   }
   ?>
