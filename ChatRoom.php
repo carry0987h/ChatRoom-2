@@ -8,6 +8,11 @@
 </head>
 
 <body>
+  <?php
+  $handle = fopen("/tmp/userLog.txt", 'a+');
+  fwrite($handle, $_POST[posting]. "\n");
+  fclose($handle);
+  ?>
   <div class="chatBox">
     <?php
     $handle = fopen("/tmp/userLog.txt", 'r');
@@ -17,13 +22,6 @@
     fclose($handle);
     ?>
   </div>
-  <pre>
-  <?php
-  $handle = fopen("/tmp/userLog.txt", 'a+');
-  fwrite($handle, $_POST[posting]. "\n");
-  fclose($handle);
-  ?>
-  </pre>
   <div action="/ChatRoom.php" class="userBox">
     <form method="post">
     <textarea name="posting"></textarea>
