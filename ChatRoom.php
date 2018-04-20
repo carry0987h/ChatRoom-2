@@ -16,9 +16,9 @@
   echo print_r($_POST);
   ?>
   </pre>
-  <div class="userBox">
+  <div action="/ChatRoom.php" class="userBox">
     <form method="post">
-    <textarea ></textarea>
+    <textarea name="posting"></textarea>
     <input type="submit" value="Submit"/>
   </form>
   </div>
