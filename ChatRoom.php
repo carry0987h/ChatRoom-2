@@ -31,10 +31,8 @@
   }
   ?>
   <div class="chatBox">
-    <div class="textBox">
-    <iframe id="refreshText" src="/ChatView.php">
+    <iframe id="refreshText" src="/ChatView.php" >
     </iframe>
-    </div>
   </div>
   <div action="/ChatRoom.php" class="userBox" onKeyPress="return checkSubmit(event)">
     <form method="post">
