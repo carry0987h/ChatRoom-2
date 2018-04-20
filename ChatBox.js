@@ -17,4 +17,4 @@ function checkSubmit(e){
   }
 };
 
-updateDisplay("http://"window.location.hostname + "/ChatView.php");
+updateDisplay("http://"+window.location.hostname + "/ChatView.php");
