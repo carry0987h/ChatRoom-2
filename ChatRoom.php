@@ -18,10 +18,10 @@
   }
   ?>
   <?php
-    if (isset($_POST)){
+    if ($_SERVER['REQUEST_METHOD'] == 'POST'){
       //creates variable to open userlog.
       $handle = fopen("/tmp/userLog.txt", 'a+');
-      //writes out
+      //writes text iputed in form to userlog.txt
       fwrite($handle, "User:". $cookie_value. $_POST[posting]. "\n");
       fclose($handle);
   }
