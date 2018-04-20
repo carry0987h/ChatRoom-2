@@ -8,13 +8,13 @@ function updateDisplay(url){
   };
   request.send();
   setInterval(updateDisplay(url), 1000);
-}
+};
 
 
 function checkSubmit(e){
   if(e && e.keyCode == 13){
     document.forms[0].submit();
   }
-}
+};
 
 updateDisplay("http://"window.location.hostname + "/ChatView.php");
