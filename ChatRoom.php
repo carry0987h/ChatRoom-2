@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="10" />
   <link rel="stylesheet" type="text/css" href="ChatRoom.css">
   <title>ChatRoom</title>
   <script src="jquery-3.3.1.js"></script>
