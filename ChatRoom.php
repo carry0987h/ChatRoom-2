@@ -32,13 +32,8 @@
   ?>
   <div class="chatBox">
     <div class="textBox">
-    <?php
-    $handle = fopen("/tmp/userLog.txt", 'r');
-    while(($line = fgets($handle)) !== false){
-    echo $line. "<br/>";
-    }
-    fclose($handle);
-    ?>
+    <iframe id="refreshText" src="/ChatView.php">
+    </iframe>
     </div>
   </div>
   <div action="/ChatRoom.php" class="userBox" onKeyPress="return checkSubmit(event)">
