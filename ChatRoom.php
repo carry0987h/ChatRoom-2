@@ -11,11 +11,11 @@
   <div class="chatBox">
     <iframe src="userLog.txt" height="600" width="800"></iframe>
   </div>
-  <div>
+  <pre>
   <?php
-  echo htmlspecialchars($_POST);
+  echo print_r($_POST);
   ?>
-  </div>
+  </pre>
   <div class="userBox">
     <form method="post">
     <textarea ></textarea>
