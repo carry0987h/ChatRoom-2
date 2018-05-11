@@ -1,1 +1,1 @@
-We are creating a chatroom that allows users to be anonymous. 
+We are creating a chatroom that allows users to be anonymous.
