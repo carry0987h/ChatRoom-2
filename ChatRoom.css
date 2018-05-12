@@ -1,5 +1,5 @@
 body{
-    background-color: #ee1515;
+    background-color:#262626;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -15,14 +15,14 @@ iframe {
   text-align: left;
 }
 .chatBox {
-    border-radius: 15px 50px;
+    border-radius: 70px 50px;
     text-align: center;
     margin: auto;
     height: 500px;
     width: 50%;
-    border: 15px solid #50514F;
+    border: 9px inset #00868b;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: #eeeeee;
 }
 .siteTitle{
     text-align: left;
@@ -30,5 +30,5 @@ iframe {
     height: 40px;
     width: 100%;
     padding: 0px;
-    background-color: #222224;
+    background-color: #dddddd;
 }
