@@ -34,12 +34,12 @@
       fclose($handle);
   ?>
   <div class="chatBox" id="ChatView">
-    <iframe src="/ChatView.php" class="chatLog"></frame>
+    <iframe src="/ChatView.php" class="chatLog"></iframe>
   </div>
   <div action="/ChatRoom.php" class="userBox" onKeyPress="return checkSubmit(event)">
     <form method="post">
-    <textarea name="posting"></textarea>
-  </form>
+      <textarea name="posting"></textarea>
+    </form>
   </div>
 
 </body>
