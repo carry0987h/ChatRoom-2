@@ -1,6 +1,6 @@
 <?php
   //creates varialbe to open userLog and set to write
-  $handle = fopen("/tmp/userLog.txt", 'w');
+  $handle = "/tmp/userLog.txt"
   //Opens userLog
   fopen($handle);
   //Clears userLog
