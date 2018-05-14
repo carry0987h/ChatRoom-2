@@ -8,11 +8,8 @@ body{
 iframe {
  border: 0;
 }
-.textBox{
-  text-align: left;
-}
 .userBox{
-  text-align: left;
+  text-align: center;
 }
 .chatBox {
     border-radius: 70px 50px;
