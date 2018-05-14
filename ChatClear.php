@@ -4,7 +4,7 @@
   //Opens userLog
   fopen($handle);
   //Clears userLog
-  file_put_contents("userLog.txt", "");
+  file_put_contents($handle, "");
   //Closes userlog.
   fclose($handle);
 ?>
