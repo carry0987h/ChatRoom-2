@@ -8,13 +8,6 @@ body{
 iframe {
  border: 0;
 }
-.chatLog{
-    border-radius: 60px 40px;
-    text-align: center;
-    margin: auto;
-    height: 400px;
-    width: 40%;
-    border: 9px inset #00868b;
 }
 .userBox{
   text-align: center;
