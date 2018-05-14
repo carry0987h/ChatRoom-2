@@ -8,9 +8,9 @@ body{
 iframe {
  border: 0;
 }
-.chatBox{
-  height: 400px;
-  width: 40%;
+.chatLog{
+  height: 500px;
+  width: 50%;
 }
 .userBox{
   text-align: center;
