@@ -5,8 +5,10 @@ body{
     margin-bottom: 0px;
     margin-left: 0px
 }
-iframe {
- border: 0;
+.userlog{
+  width=400;
+  height=400;
+  frameborder=0;
 }
 .userBox{
   text-align: center;
