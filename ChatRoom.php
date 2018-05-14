@@ -34,7 +34,7 @@
       fclose($handle);
   ?>
   <div class="chatBox" id="ChatView">
-    <iframe src="/ChatView.php" ></iframe>
+    <iframe src="/ChatView.php" width=200 height=400 frameborder=0></iframe>
   </div>
   <div action="/ChatRoom.php" class="userBox" onKeyPress="return checkSubmit(event)">
     <form method="post">
