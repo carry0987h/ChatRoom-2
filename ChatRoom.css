@@ -6,9 +6,9 @@ body{
     margin-left: 0px
 }
 .userlog{
-  width=400;
-  height=400;
-  frameborder=0;
+  width: 400px;
+  height: 400px;
+  frameborder: 0px;
 }
 .userBox{
   text-align: center;
