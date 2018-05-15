@@ -41,13 +41,11 @@
       <textarea name="posting"></textarea>
     </form>
   </div>
-  <div action="/ChatCleap.php">
-  <form method="post">
+  <form action="/ChatCleap.php" method="post">
     <p>
     <button type="clear">Clear</button>
     </p>
   </form>
-  </div>
 
 
 </body>
