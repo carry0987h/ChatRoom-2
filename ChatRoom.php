@@ -34,10 +34,9 @@
       fclose($handle);
   ?>
   <div class="chatBox" id="ChatView">
-    <meta http-equiv="refresh" content="1" >
     <iframe src="/ChatView.php" width=400 height=400 frameborder=0></iframe>
   </div>
-  <div action="/ChatRoom.php" class="userBox" onKeyPress="return checkSubmit(event)">
+  <div action="/ChatRoom.php" class="userBox" onKeyPress="return checkSubmit(event)" id="Box">
     <form method="post">
       <textarea name="posting"></textarea>
     </form>
