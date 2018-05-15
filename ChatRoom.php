@@ -43,7 +43,7 @@
   </div>
   <form action="/ChatClear.php" method="post">
     <p>
-    <button type="button">Clear</button>
+    <button type="clear">Clear</button>
     </p>
   </form>
 
