@@ -4,8 +4,3 @@ function checkSubmit(e){
     document.forms[0].submit();
   }
 };
-$(document).ready(function(){
-    $("clear").click(function(){
-        $("/tmp/userLog.txt").remove();
-    });
-});
