@@ -41,7 +41,7 @@
       <textarea name="posting"></textarea>
     </form>
   </div>
-  <form action="/ChatClear.php" method="post">
+  <form>
     <p>
     <button type="clear">Clear</button>
     </p>
