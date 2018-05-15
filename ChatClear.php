@@ -1,3 +1,3 @@
 <?php
-  echo delete("/tmp/userLog.txt");
+  file_put_contents("/tmp/userLog.txt", "");
 ?>
