@@ -25,12 +25,11 @@
 
   }
   ?>
-
   <div class="chatBox" id="ChatView">
     <iframe src="/ChatView.php" width=400 height=400 frameborder=0></iframe>
   </div>
-  <div action="/ChatLog.php" class="userBox" onKeyPress="return checkSubmit(event)" id="Box">
-    <form method="post">
+  <div class="userBox" onKeyPress="return checkSubmit(event)" id="Box">
+    <form action="/ChatLog.php" method="post">
       <textarea name="posting"></textarea>
     </form>
   </div>
