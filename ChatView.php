@@ -1,3 +1,12 @@
+    <style type=”text/css”>
+
+    body {
+    font: arial;    
+    font-size: 15px;
+    }
+    </style>
+
+    <body>
     <?php
     //sets handle variable to open userLog.txt and read.
     $handle = fopen("/tmp/userLog.txt", 'r');
@@ -8,5 +17,5 @@
     }
     fclose($handle);
     ?>
-
+    </body>
 
