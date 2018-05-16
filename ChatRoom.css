@@ -12,6 +12,8 @@ body{
 }
 .userBox{
   text-align: center;
+  font: arial;
+  font-size: 15px;
 }
 .chatBox {
     border-radius: 70px 50px;
