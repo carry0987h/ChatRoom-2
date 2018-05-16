@@ -9,6 +9,7 @@ body{
   width: 400px;
   height: 400px;
   frameborder: 0px;
+  font: arial;
 }
 .userBox{
   text-align: center;
@@ -33,4 +34,8 @@ body{
     width: 100%;
     padding: 0px;
     background-color: #dddddd;
+}
+
+iframe {
+    font: arial;
 }
