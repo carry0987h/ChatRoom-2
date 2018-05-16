@@ -8,6 +8,15 @@
 </head>
 
 <body>
+<?php
+function renderHtml($contentRenderer = null)
+{
+    echo "<!DOCTYPE HTML>\n";
+    echo '<html>';
+    if ($contentRenderer) $contentRenderer();
+    echo '</html>';
+}
+?>
   <?php
   //Creates variable for $cookie_name called user
   $cookie_name = "user";
