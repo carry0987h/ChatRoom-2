@@ -1,4 +1,4 @@
-    <meta http-equiv="refresh" content="1">
+
     <style type=text/css>
 
     body{
@@ -6,7 +6,6 @@
     font-size: 15px;
     }
     </style>
-
     <body>
     <?php
     //sets handle variable to open userLog.html and read.
@@ -19,4 +18,3 @@
     fclose($handle);
     ?>
     </body>
-    </meta>
