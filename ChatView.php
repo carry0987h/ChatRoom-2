@@ -1,7 +1,7 @@
     <style type=text/css>
 
     body{
-    font: arial;    
+    font-family: verdana;
     font-size: 15px;
     }
     </style>
