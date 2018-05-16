@@ -24,6 +24,7 @@ body{
     border: 9px inset #00868b;
     padding: 10px;
     background-color: #eeeeee;
+    font: arial;
 }
 .siteTitle{
     text-align: left;
