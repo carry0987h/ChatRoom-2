@@ -1,3 +1,4 @@
+    <meta http-equiv="refresh" content="1">
     <style type=text/css>
 
     body{
@@ -8,15 +9,6 @@
 
     <body>
     <?php
-    // to render instead of refreshing whole page
-      function renderHtml($contentRenderer = null)
-      {
-          echo "<!DOCTYPE HTML>\n";
-          echo '<html>';
-          if ($contentRenderer) $contentRenderer();
-          echo '</html>';
-      }
-
     //sets handle variable to open userLog.html and read.
     $handle = fopen("/tmp/userLog.html", 'r');
     //creates a vairable called line that reads hanlde in a loop
@@ -27,4 +19,4 @@
     fclose($handle);
     ?>
     </body>
-
+    </meta>
