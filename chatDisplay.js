@@ -1,0 +1,1 @@
+$().load("chatLog.txt");
