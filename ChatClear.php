@@ -1,6 +1,6 @@
 <?php
       //creates variable to open userlog and sets to write.
-      $handle = fopen("/tmp/userLog.txt", 'w');
+      $handle = fopen("/tmp/userLog.html", 'w');
       //clears content from userlog
       fwrite($handle, " ");
       //closes userLog.txt

@@ -17,10 +17,10 @@
   ?>
 <?php
       //creates variable to open userlog.
-      $handle = fopen("/tmp/userLog.txt", 'a+');
-      //writes text iputed in form to userlog.txt
+      $handle = fopen("/tmp/userLog.html", 'a+');
+      //writes text iputed in form to userlog.html
       fwrite($handle, $cookie_value. ": ". $_POST[posting]. "\n");
-      //closes userLog.txt
+      //closes userLog.html
       fclose($handle);
       header("Location: /ChatRoom.php");
   ?>
