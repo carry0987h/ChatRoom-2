@@ -3,7 +3,8 @@ body{
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-    margin-left: 0px
+    margin-left: 0px;
+    font: arial;
 }
 .userLog{
   width: 400px;
@@ -34,8 +35,4 @@ body{
     width: 100%;
     padding: 0px;
     background-color: #dddddd;
-}
-
-iframe {
-    font: arial;
 }
