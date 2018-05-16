@@ -43,5 +43,6 @@ iframe{
 }
 
 #innerframe{
-    
+    font: arial;
+    font-size: 30px;
 }
