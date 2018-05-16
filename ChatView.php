@@ -1,6 +1,6 @@
     <style type=”text/css”>
 
-    body {
+    body{
     font: arial;    
     font-size: 15px;
     }
