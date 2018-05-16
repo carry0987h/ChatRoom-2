@@ -5,6 +5,15 @@
   <title>ChatRoom</title>
   <script src="jquery-3.3.1.js"></script>
   <script src="ChatBox.js"></script>
+  <script>
+  $(document).ready(function() {
+ 	 $("#responsecontainer").load("/ChatView.php");
+   var refreshId = setInterval(function() {
+      $("#responsecontainer").load('/ChatView.php');
+   }, 9000);
+   $.ajaxSetup({ cache: false });
+    });
+  </script>
 </head>
 
 <body>
