@@ -1,5 +1,5 @@
 body{
-    background-color: #f6f6f6;
+    background-color: #232a3b;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -23,7 +23,7 @@ body{
     margin: auto;
     height: 500px;
     width: 50%;
-    border: 7px inset #9dbde7;
+    border: 17px inset #9dbde7;
     padding: 10px;
     background-color: #dddddd;
     font: arial;
