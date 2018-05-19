@@ -1,5 +1,5 @@
 body{
-    background-color:#e5e6eb;
+    background-color:#aaaaaa;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -23,9 +23,9 @@ body{
     margin: auto;
     height: 500px;
     width: 50%;
-    border: 7px solid #00868b;
+    border: 7px inset #9dbde7;
     padding: 10px;
-    background-color: #eeeeee;
+    background-color: #dddddd;
     font: arial;
 }
 .siteTitle{
