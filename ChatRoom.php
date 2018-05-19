@@ -39,7 +39,10 @@
   </div>
   <div class="userBox" onKeyPress="return checkSubmit(event)" id="Box">
     <form action="/ChatLog.php" method="post">
-      <textarea name="posting"></textarea>
+      <textarea id="box" name="posting"></textarea>
+      <p>
+        Please type in your response here and hit enter.
+      </p>
     </form>
   </div>
   <div class="container">
