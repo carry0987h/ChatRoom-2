@@ -5,18 +5,10 @@
   <title>ChatRoom</title>
   <script src="jquery-3.3.1.js"></script>
   <script src="ChatBox.js"></script>
-  <script>
-  $(document).ready(function() {
- 	 $("#responsecontainer").load("/ChatView.php");
-   var refreshId = setInterval(function() {
-      $("#responsecontainer").load('/ChatView.php');
-   }, 9000);
-   $.ajaxSetup({ cache: false });
-    });
-  </script>
 </head>
 
 <body>
+<<<<<<< HEAD
   <?php
   //Creates variable for $cookie_name called user
   $cookie_name = "user";
@@ -34,6 +26,8 @@
 
   }
   ?>
+=======
+>>>>>>> 5a0c255504c8f926732fc475a053b8f5302c1657
   <div class="chatBox" id="ChatView">
     <iframe src="/ChatView.php" width=400 height=400 frameborder=0 id="innerframe"></iframe>
   </div>

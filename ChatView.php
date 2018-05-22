@@ -1,4 +1,6 @@
-
+    <head>
+      <meta http-equiv="refresh" content="1">
+    </head>
     <style type=text/css>
 
     body{
