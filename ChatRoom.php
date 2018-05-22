@@ -27,7 +27,7 @@
     //creates a variable called obj to get the api.
     $obj = json_decode(file_get_contents($url), true);
     //sets $cookie_value to name of api
-    $cookie_value = $obj['password'];
+    $cookie_value = $obj['surname'];
     setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 seconds = 1 day x 1 days - to stay anonymous
   }else{
     $cookie_value = $_COOKIE[$cookie_name];
