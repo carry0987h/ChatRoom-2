@@ -8,7 +8,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
   <?php
   //Creates variable for $cookie_name called user
   $cookie_name = "user";
@@ -26,8 +25,6 @@
 
   }
   ?>
-=======
->>>>>>> 5a0c255504c8f926732fc475a053b8f5302c1657
   <div class="chatBox" id="ChatView">
     <iframe src="/ChatView.php" width=400 height=400 frameborder=0 id="innerframe"></iframe>
   </div>
