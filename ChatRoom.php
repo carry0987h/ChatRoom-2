@@ -32,7 +32,7 @@
     <div class="container">
     <form action="/ChatLog.php" method="post">
       <textarea id="box" name="posting"></textarea>
-      <p>
+      <p style="font-color: white">
         Please type in your response here and hit enter.
       </p>
     </form>
