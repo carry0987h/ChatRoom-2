@@ -120,6 +120,7 @@ footer {
   border: solid #eb2323 0px;
   text-decoration: none;
   float: right;
+  text-align: center;
 }
 
 .btn:hover {
