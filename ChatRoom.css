@@ -20,6 +20,7 @@ body{
 .chatBox {
     border-radius:20px 20px;
     text-align: left;
+    margin-top: 50px;
     margin: auto;
     height: 500px;
     width: 50%;
@@ -79,6 +80,7 @@ iframe{
     position:fixed;
     top: 30px;
     width: 100%;
+    z-index:1;
     top:5px;
 }
 
