@@ -4,11 +4,11 @@
   //When there is a $cookie_name defined then it starts code.
   if(!isset($_COOKIE[$cookie_name])) {
     //creates a varialbe called url to random name generator api.
-    $url = "https://swapi.co/api/people/";
+    $url = "https://apifort-random-word-v1.p.mashape.com/v1/generate/randomword?count=10";
     //creates a variable called obj to get the api.
     $obj = json_decode(file_get_contents($url), true);
     //sets $cookie_value to name of api
-    $cookie_value = $obj['name'];
+    $cookie_value = $obj['result'];
     setcookie($cookie_name, $cookie_value, "/"); // Sets username until session is expired
   }else{
     $cookie_value = $_COOKIE[$cookie_name];
