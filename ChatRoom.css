@@ -60,7 +60,8 @@ iframe{
 }
 
 .instructions {
-    color: #ffffff;
+    color:  #aaaaaa;
+    font-style: italic;
 }
 
 .btn {
