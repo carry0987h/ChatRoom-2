@@ -7,7 +7,7 @@
     font-family: verdana;
     font-size: 15px;
     }
-    p{
+    .userName{
       color: #4286f4;
     }
     </style>
