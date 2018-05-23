@@ -49,8 +49,10 @@ iframe{
 
 .container {
     align-content: center;
+    text-align: center;
 }
 
 .instructions {
     color: white;
+    border: 1px blue;
 }
