@@ -35,5 +35,9 @@
 
 </body>
 
+<footer>
+  Created By: Raphael Bret-Mounet & Stacey Luong
+</footer>
+
 </html>
 
