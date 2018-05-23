@@ -33,9 +33,9 @@
      <center>
     <form action="/ChatLog.php" method="post">
       <textarea id="box" name="posting"></textarea>
-      <p class="instructions">
+      <span class="instructions">
         Please type in your response here and hit enter.
-      </p>
+      </span>
     </form>
     </div>
   </center>
