@@ -82,6 +82,10 @@ iframe{
     top:0px;
 }
 
+.title a{
+    float: right;
+}
+
 h1 {
     background-color: #9dbde7;
 }
