@@ -119,6 +119,7 @@ footer {
   padding: 4px 7px 4px 7px;
   border: solid #eb2323 0px;
   text-decoration: none;
+  bottom: 50%;
 }
 
 .btn:hover {
