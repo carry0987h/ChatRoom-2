@@ -20,12 +20,10 @@
   <div class="userBox" onKeyPress="return checkSubmit(event)" id="Box">
      <center>
     <form action="/ChatLog.php" method="post">
-      <span>
         <textarea id="box" name="posting" placeholder="Please type in your response here and hit enter"></textarea>
-          <form action="/ChatClear.php" method="post" style="align-content: center; text-align: center;">
+    </form>
+    <form action="/ChatClear.php" method="post" style="align-content: center; text-align: center;">
           <button class="btn" type="clear">Clear Chat History</button>
-          </form>
-      </span>
     </form>
     </div>
   </center>
