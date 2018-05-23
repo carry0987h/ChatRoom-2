@@ -44,7 +44,7 @@
     <center>
   <form action="/ChatClear.php" method="post">
     <p>
-    <button type="clear">Clear</button>
+    <button class="btn" type="clear">Clear</button>
     </p>
   </form>
 </div>
