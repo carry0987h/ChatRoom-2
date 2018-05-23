@@ -49,6 +49,8 @@ iframe{
 
 #box {
     width: 50%;
+    border: 2px #300000;
+    border-radius:10px 10px;
 }
 
 .container {
