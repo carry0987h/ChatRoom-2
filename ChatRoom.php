@@ -39,13 +39,11 @@
     </div>
   </div>
   <div class="container">
-  <center>
   <form action="/ChatClear.php" method="post">
     <p>
     <button type="clear">Clear</button>
     </p>
   </form>
-  </center>
 </div>
 
 </body>
