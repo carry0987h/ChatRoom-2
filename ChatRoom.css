@@ -79,7 +79,6 @@ iframe{
     position:fixed;
     top: 30px;
     width: 100%;
-    z-index:1;
     top:5px;
 }
 
