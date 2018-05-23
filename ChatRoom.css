@@ -85,6 +85,7 @@ iframe{
 
 .title a{
     float: right;
+    padding-right: 5px;
 }
 
 h1 {
