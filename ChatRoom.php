@@ -21,10 +21,6 @@
      <center>
     <form action="/ChatLog.php" method="post">
       <textarea id="box" name="posting" placeholder="Please type in your response here and hit enter"></textarea>
-      <br>
-      <span class="instructions">
-        (Please type in your response here and hit enter)
-      </span>
     </form>
     </div>
   </center>
