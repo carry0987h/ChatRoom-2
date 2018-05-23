@@ -95,12 +95,14 @@ h1 {
 }
 
 
-footer {
+.footer {
     font-family: Courier New;
     color: #C0C0C0;
     text-align: center;
     font-size: 11px;
+    left: 0px;
     bottom: 0px;
+    width: 100%;
 }
 
 .btn {

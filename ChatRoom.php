@@ -30,9 +30,9 @@
   </div>
 </body>
 
-<footer>
+<div class="footer">
   Created By: <a href="https://github.com/rbretmounet/">Raphael Bret-Mounet</a> & <a href="https://github.com/staceymay">Stacey Luong</a>
-</footer>
+</div>
 
 </html>
 
