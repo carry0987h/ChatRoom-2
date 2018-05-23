@@ -4,7 +4,7 @@
   //When there is a $cookie_name defined then it starts code.
   if(!isset($_COOKIE[$cookie_name])) {
     //creates a varialbe called url to random name generator api.
-    $url = "https://uinames.com/api/?minlen=25";
+    $url = "https://swapi.co/api/";
     //creates a variable called obj to get the api.
     $obj = json_decode(file_get_contents($url), true);
     //sets $cookie_value to name of api
