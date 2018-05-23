@@ -9,7 +9,7 @@
 
 <body>
   <div class="title">
-    <h2>ANON CHAT</h2>
+    <h1>ANON CHAT</h1>
   </div>
   <?php
   //Creates variable for $cookie_name called user

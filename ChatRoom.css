@@ -66,6 +66,8 @@ iframe{
 }
 
 .title {
+    color: #ffffff;
+    text-shadow: 3px grey;
     letter-spacing: 5px;
     position: relative;
     text-align: center;
