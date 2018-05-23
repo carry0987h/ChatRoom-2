@@ -77,10 +77,9 @@ iframe{
     text-transform: uppercase;
     background-color: #9dbde7;
     position:fixed;
-    top: 30px;
     width: 100%;
     z-index:1;
-    top:50px;
+    top:0px;
 }
 
 h1 {
