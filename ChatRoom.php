@@ -40,13 +40,11 @@
     </div>
   </center>
   </div>
-    <center>
-  <form action="/ChatClear.php" method="post">
+  <form action="/ChatClear.php" method="post" style="align-content: center;">
     <p>
     <button class="btn" type="clear">Clear</button>
     </p>
   </form>
-  </center>
 
 </body>
 
