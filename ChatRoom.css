@@ -76,6 +76,10 @@ iframe{
     background-color: #9dbde7;
 }
 
+h1 {
+    border-color: background-color: #9dbde7;
+}
+
 .btn {
   background: #f01818;
   background-image: -webkit-linear-gradient(top, #f01818, #ad0e0e);
