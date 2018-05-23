@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  <h2>ANON CHAT</h2>
   <?php
   //Creates variable for $cookie_name called user
   $cookie_name = "user";
