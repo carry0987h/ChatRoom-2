@@ -107,6 +107,10 @@ h1 {
     padding-bottom: 3px;
 }
 
+. footer a {
+    text-decoration: none;
+}
+
 .btn {
   background: #f01818;
   background-image: -webkit-linear-gradient(top, #f01818, #ad0e0e);
