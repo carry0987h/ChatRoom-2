@@ -38,15 +38,17 @@
       </p>
     </form>
     </div>
+  </center>
   </div>
   <div class="container">
+    <center>
   <form action="/ChatClear.php" method="post">
     <p>
     <button type="clear">Clear</button>
     </p>
   </form>
 </div>
-    </center>
+  </center>
 
 </body>
 
