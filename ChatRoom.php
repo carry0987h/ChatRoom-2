@@ -10,8 +10,8 @@
 </head>
 <body>
   <div class="title">
-    <h1>ANON CHAT</h1>
-    <a class="fa fa-github" aria-hidden="true" style="font-size:36px"></a>
+    <h1>ANON CHAT
+    <a class="fa fa-github" aria-hidden="true" style="font-size:36px"></a></h1>
   </div>
   <div class="chatBox" id="ChatView">
     <iframe src="/ChatView.php" width=400 height=400 frameborder=0 id="innerframe"></iframe>
