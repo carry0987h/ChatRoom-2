@@ -1,3 +1,3 @@
 <?php
-  echo json_encode($_COOKIE);
+  print_r($_COOKIE);
 ?>
