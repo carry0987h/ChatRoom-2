@@ -71,22 +71,23 @@ iframe{
   background-image: -ms-linear-gradient(top, #f01818, #ad0e0e);
   background-image: -o-linear-gradient(top, #f01818, #ad0e0e);
   background-image: linear-gradient(to bottom, #f01818, #ad0e0e);
-  -webkit-border-radius: 4;
-  -moz-border-radius: 4;
-  border-radius: 4px;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
   font-family: Arial;
-  color: #0a080a;
-  font-size: 16px;
-  padding: 3px 8px 3px 8px;
+  color: #fcfcfc;
+  font-size: 12px;
+  padding: 4px 7px 4px 7px;
+  border: solid #eb2323 0px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #f58134;
-  background-image: -webkit-linear-gradient(top, #f58134, #d93434);
-  background-image: -moz-linear-gradient(top, #f58134, #d93434);
-  background-image: -ms-linear-gradient(top, #f58134, #d93434);
-  background-image: -o-linear-gradient(top, #f58134, #d93434);
-  background-image: linear-gradient(to bottom, #f58134, #d93434);
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #cc3333);
+  background-image: -moz-linear-gradient(top, #ffffff, #cc3333);
+  background-image: -ms-linear-gradient(top, #ffffff, #cc3333);
+  background-image: -o-linear-gradient(top, #ffffff, #cc3333);
+  background-image: linear-gradient(to bottom, #ffffff, #cc3333);
   text-decoration: none;
 }
