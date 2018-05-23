@@ -50,9 +50,11 @@ iframe{
 .container {
     align-content: center;
     text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
 }
 
 .instructions {
-    color: white;
+    color: #ffffff;
     border: 1px blue;
 }
