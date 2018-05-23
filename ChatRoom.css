@@ -51,12 +51,10 @@ iframe{
     align-content: center;
     text-align: center;
     padding: 10px;
-    background-color: #ffffff;
 }
 
 .instructions {
     color: #ffffff;
-    border: 1px blue;
 }
 
 .btn {
