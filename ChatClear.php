@@ -1,3 +1,6 @@
+<head>
+  <meta http-equiv="refresh" content="3">
+</head>
 <?php
       //creates variable to open userlog and sets to write.
       $handle = fopen("/tmp/userLog.html", 'w');
