@@ -30,6 +30,7 @@
   }
   ?>
   <div class="chatBox" id="ChatView">
+    <ifram src="/CurrentUsers.php" id="Users"></iframe>
     <iframe src="/ChatView.php" width=400 height=400 frameborder=0 id="innerframe"></iframe>
   </div>
   <div class="container">
