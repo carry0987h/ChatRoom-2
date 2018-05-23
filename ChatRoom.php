@@ -30,6 +30,7 @@
   </div>
   <div class="userBox" onKeyPress="return checkSubmit(event)" id="Box">
     <div class="container">
+      <center>
     <form action="/ChatLog.php" method="post">
       <textarea id="box" name="posting"></textarea>
       <p class="instructions">
@@ -44,6 +45,7 @@
     <button type="clear">Clear</button>
     </p>
   </form>
+</center>
 </div>
 
 </body>
