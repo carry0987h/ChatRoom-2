@@ -6,11 +6,12 @@
   <title>ChatRoom</title>
   <script src="jquery-3.3.1.js"></script>
   <script src="ChatBox.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="title">
     <h1>ANON CHAT</h1>
-    <span><a href="github">github</a></span> 
+    <i class="fa fa-github" aria-hidden="true"></i>
   </div>
   <div class="chatBox" id="ChatView">
     <iframe src="/ChatView.php" width=400 height=400 frameborder=0 id="innerframe"></iframe>
