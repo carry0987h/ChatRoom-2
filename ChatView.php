@@ -8,7 +8,8 @@
     font-size: 15px;
     }
     .userName{
-      color: #4286f4;
+      color: #2c579e;
+      font-weight: bold;
     }
     </style>
     <body>
