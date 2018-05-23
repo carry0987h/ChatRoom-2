@@ -47,11 +47,6 @@ iframe{
     font: arial;
     font-size: 30px;
     width: 50%
-    position: relative;
-    left: 40px;
-}
-#Users{
-  position: relative;
 }
 
 #box {
