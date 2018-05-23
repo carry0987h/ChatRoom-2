@@ -7,6 +7,9 @@
     font-family: verdana;
     font-size: 15px;
     }
+    p{
+      color: #4286f4;
+    }
     </style>
     <body>
     <?php
