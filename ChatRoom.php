@@ -32,11 +32,10 @@
     <button class="btn" type="clear">Clear</button>
     </p>
   </form>
-
 </body>
 
 <footer>
-  Created By: Raphael Bret-Mounet & Stacey Luong
+  Created By: <a href="https://github.com/rbretmounet/">Raphael Bret-Mounet</a> & <a href="https://github.com/staceymay">Stacey Luong</a>
 </footer>
 
 </html>
