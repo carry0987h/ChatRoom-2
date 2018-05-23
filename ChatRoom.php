@@ -29,8 +29,8 @@
     <iframe src="/ChatView.php" width=400 height=400 frameborder=0 id="innerframe"></iframe>
   </div>
   <div class="userBox" onKeyPress="return checkSubmit(event)" id="Box">
+     <center>
     <div class="container">
-      <center>
     <form action="/ChatLog.php" method="post">
       <textarea id="box" name="posting"></textarea>
       <p class="instructions">
@@ -45,8 +45,8 @@
     <button type="clear">Clear</button>
     </p>
   </form>
-</center>
 </div>
+    </center>
 
 </body>
 
