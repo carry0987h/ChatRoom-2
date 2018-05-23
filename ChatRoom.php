@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="3; URL= /ChatClear.php">
+  <meta http-equiv="refresh" content="43200; URL= /ChatClear.php">
   <link rel="stylesheet" type="text/css" href="ChatRoom.css">
   <title>ChatRoom</title>
   <script src="jquery-3.3.1.js"></script>
