@@ -1,20 +1,4 @@
-<?php
-  //Creates variable for $cookie_name called user
-  $cookie_name = "user";
-  //When there is a $cookie_name defined then it starts code.
-  if(!isset($_COOKIE[$cookie_name])) {
-    //creates a varialbe called url to random name generator api.
-    $url = "https://uinames.com/api/?region=united%20states";
-    //creates a variable called obj to get the api.
-    $obj = json_decode(file_get_contents($url), true);
-    //sets $cookie_value to name of api
-    $cookie_value = $obj['name'];
-    setcookie($cookie_name, $cookie_value, time() + 86400, "/"); // Sets username until session is expired
-  }else{
-    $cookie_value = $_COOKIE[$cookie_name];
 
-  }
-  ?>
 <?php
       //creates variable to open userlog.
       $handle = fopen("/tmp/userLog.html", 'a+');
