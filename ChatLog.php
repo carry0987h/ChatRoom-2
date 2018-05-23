@@ -9,7 +9,7 @@
     $obj = json_decode(file_get_contents($url), true);
     //sets $cookie_value to name of api
     $cookie_value = $obj['name'];
-    setcookie($cookie_name, $cookie_value, time() + (0), "/"); // Sets username until session is expired
+    setcookie($cookie_name, $cookie_value, time() + 0, "/"); // Sets username until session is expired
   }else{
     $cookie_value = $_COOKIE[$cookie_name];
 
