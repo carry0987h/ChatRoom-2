@@ -47,6 +47,10 @@ iframe{
     font-size: 30px;
 }
 
+#box {
+    width: 50%;
+}
+
 .container {
     align-content: center;
     text-align: center;
