@@ -65,6 +65,13 @@ iframe{
     font-style: italic;
 }
 
+.title {
+    letter-spacing: 5px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .btn {
   background: #f01818;
   background-image: -webkit-linear-gradient(top, #f01818, #ad0e0e);

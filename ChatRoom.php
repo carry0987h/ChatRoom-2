@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="title">
     <h2>ANON CHAT</h2>
   </div>
   <?php
